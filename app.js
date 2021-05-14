@@ -58,6 +58,7 @@ var enableCORS = function (req, res, next) {
     res.header('Access-Control-Allow-Headers', 'Content-Type, token, Content-Length, X-Requested-With, *');
     if ('OPTIONS' === req.method) {
         res.sendStatus(200);
+        console.log(res);
     } else {
         next();
     }
