@@ -24,7 +24,7 @@ mongoose.set('useCreateIndex', true);
 const host = ip.address();
 var https = require('https');
 var http = require('http');
-if (host == 'Your_production_IP_address') {
+if (host == 'qrcode1.eu-central-1.elasticbeanstalk.com') {
     var options = {
         key: fs.readFileSync('Your_qrsslcert.key_Path', 'utf8'),
         cert: fs.readFileSync('Your_qrsslcert.crt_Path', 'utf8'),
