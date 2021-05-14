@@ -41,7 +41,7 @@ module.exports = function (app) {
     app.use('/api', apiRoutes);
 
     // Authentication API
-    app.get('/userLogin', qrCode.login);
+    app.post('/userLogin', qrCode.login);
     app.post('/userRegister', qrCode.register);
 
     // qrCode API    
