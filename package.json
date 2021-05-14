@@ -29,6 +29,7 @@
     "nodemailer": "^6.3.0",
     "nodemailer-mandrill-transport": "^1.2.0",
     "nodemon": "^1.19.2"
+    
   },
   "devDependencies": {}
 }
