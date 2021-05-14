@@ -22,7 +22,7 @@ mongoose.set('useCreateIndex', true);
 const host = ip.address();
 var https = require('https');
 var http = require('http');
-if (host == 'Your_production_IP_address') {
+/* if (host == 'Your_production_IP_address') {
     var options = {
         key: fs.readFileSync('Your_qrsslcert.key_Path', 'utf8'),
         cert: fs.readFileSync('Your_qrsslcert.crt_Path', 'utf8'),
@@ -33,12 +33,12 @@ if (host == 'Your_production_IP_address') {
     app.listen(config.https_port, host, function () {
         console.log(`Node QR server running on ${host}:`, config.https_port);
     });
-} else {
+} else { */
     http.createServer(app);
     app.listen(config.http_port, function () {
         console.log("Node QR server running on ", config.http_port);
     });
-}
+/* } */
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
