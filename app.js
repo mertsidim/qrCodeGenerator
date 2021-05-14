@@ -8,8 +8,6 @@ var config = require('./config');
 
 mongoose.Promise = global.Promise;
 module.exports = mongoose;
-
-/* mongoose.connect('mongodb://localhost/QR-DB', { useNewUrlParser: true, useUnifiedTopology: true }, function (err, data) { */
 mongoose.connect('mongodb+srv://qrCodeDbUser:1M2e3r4t@qr-code.dd0yb.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true }, function (err, data) {
     if (err) {
         console.log('Sorry can not connect with mongodb...');
@@ -38,7 +36,7 @@ if (host == 'Your_production_IP_address') {
 } else {
     http.createServer(app);
     app.listen(config.http_port, function () {
-        console.log(`Node QR server running on ${host}:`, config.http_port);
+        console.log("Node QR server running on ", config.http_port);
     });
 }
 

@@ -13,7 +13,7 @@
     "dynamic qr code with MEAN Stack",
     "dynamic qr code with Node js"
   ],
-  "author": "Mert Sidim",
+  "author": "Elsner Technology Ptv. Ltd.",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -25,9 +25,10 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "mongoose": "^5.7.1",
-    "node": "^12.22.1",
     "nodemailer": "^6.3.0",
     "nodemailer-mandrill-transport": "^1.2.0",
-    "nodemon": "^1.19.2"
-  }
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
 }
