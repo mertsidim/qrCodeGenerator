@@ -38,7 +38,7 @@ if (host == 'Your_production_IP_address') {
 } else {
     http.createServer(app);
     app.listen(config.http_port, function () {
-        console.log("Node QR server running on ", config.http_port);
+        console.log(`Node QR server running on ${host}:`, config.http_port);
     });
 }
 
