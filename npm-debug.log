@@ -1,0 +1,787 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.11
+3 info using node@v0.12.18
+4 verbose readDependencies loading dependencies from C:\Users\lycod\Desktop\qrcodegen\node\package.json
+5 warn package.json dynamic_qr_code@1.0.0 No repository field.
+6 verbose install where, deps [ 'C:\\Users\\lycod\\Desktop\\qrcodegen\\node',
+6 verbose install   [ 'bcrypt-nodejs',
+6 verbose install     'body-parser',
+6 verbose install     'crypto-ts',
+6 verbose install     'express',
+6 verbose install     'ip',
+6 verbose install     'jsonwebtoken',
+6 verbose install     'lodash',
+6 verbose install     'moment',
+6 verbose install     'mongoose',
+6 verbose install     'node',
+6 verbose install     'nodemailer',
+6 verbose install     'nodemailer-mandrill-transport',
+6 verbose install     'nodemon' ] ]
+7 verbose install where, peers [ 'C:\\Users\\lycod\\Desktop\\qrcodegen\\node', [] ]
+8 verbose installManyTop reading for lifecycle C:\Users\lycod\Desktop\qrcodegen\node\package.json
+9 info preinstall dynamic_qr_code@1.0.0
+10 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\bcrypt-nodejs\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\body-parser\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\crypto-ts\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\express\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\ip\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\jsonwebtoken\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\lodash\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\moment\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\mongoose\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\nodemailer\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\nodemailer-mandrill-transport\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\nodemon\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\rxjs\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\zone.js\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\@angular\common\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\@angular\core\package.json
+26 info package.json bcrypt-nodejs@0.0.3 No license field.
+27 verbose readDependencies loading dependencies from C:\Users\lycod\Desktop\qrcodegen\node\package.json
+28 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\bcrypt-nodejs\package.json
+29 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\body-parser\package.json
+30 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\crypto-ts\package.json
+31 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\express\package.json
+32 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\ip\package.json
+33 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\jsonwebtoken\package.json
+34 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\lodash\package.json
+35 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\moment\package.json
+36 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\mongoose\package.json
+37 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\nodemailer\package.json
+38 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\nodemailer-mandrill-transport\package.json
+39 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\nodemon\package.json
+40 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\rxjs\package.json
+41 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\zone.js\package.json
+42 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\nodemon\package.json
+43 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\nodemon.cmd\package.json
+44 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\@angular\common\package.json
+45 verbose targetResolver reading package data from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\@angular\core\package.json
+46 verbose already installed skipping moment@^2.24.0 C:\Users\lycod\Desktop\qrcodegen\node
+47 verbose already installed skipping mongoose@^5.7.1 C:\Users\lycod\Desktop\qrcodegen\node
+48 silly cache add args [ 'node@^14.16.1', null ]
+49 verbose cache add spec node@^14.16.1
+50 silly cache add parsed spec { raw: 'node@^14.16.1',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'node',
+50 silly cache add   rawSpec: '^14.16.1',
+50 silly cache add   spec: '>=14.16.1 <15.0.0',
+50 silly cache add   type: 'range' }
+51 silly addNamed node@>=14.16.1 <15.0.0
+52 verbose addNamed ">=14.16.1 <15.0.0" is a valid semver range for node
+53 silly addNameRange { name: 'node', range: '>=14.16.1 <15.0.0', hasData: false }
+54 silly mapToRegistry name node
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data { raw: 'node',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'node',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/node
+59 verbose addNameRange registry:https://registry.npmjs.org/node not in flight; fetching
+60 verbose already installed skipping nodemailer@^6.3.0 C:\Users\lycod\Desktop\qrcodegen\node
+61 verbose already installed skipping nodemailer-mandrill-transport@^1.2.0 C:\Users\lycod\Desktop\qrcodegen\node
+62 verbose already installed skipping nodemon@^1.19.2 C:\Users\lycod\Desktop\qrcodegen\node
+63 verbose get https://registry.npmjs.org/node not expired, no request
+64 silly addNameRange number 2 { name: 'node', range: '>=14.16.1 <15.0.0', hasData: true }
+65 silly addNameRange versions [ 'node',
+65 silly addNameRange   [ '0.0.0',
+65 silly addNameRange     '0.1.14',
+65 silly addNameRange     '0.1.15',
+65 silly addNameRange     '0.1.16',
+65 silly addNameRange     '0.1.17',
+65 silly addNameRange     '0.1.18',
+65 silly addNameRange     '0.1.19',
+65 silly addNameRange     '0.1.20',
+65 silly addNameRange     '0.1.21',
+65 silly addNameRange     '0.1.22',
+65 silly addNameRange     '0.1.23',
+65 silly addNameRange     '0.1.24',
+65 silly addNameRange     '0.1.25',
+65 silly addNameRange     '0.1.26',
+65 silly addNameRange     '0.1.27',
+65 silly addNameRange     '0.1.28',
+65 silly addNameRange     '0.1.29',
+65 silly addNameRange     '0.1.30',
+65 silly addNameRange     '0.1.31',
+65 silly addNameRange     '0.1.32',
+65 silly addNameRange     '0.1.33',
+65 silly addNameRange     '0.1.90',
+65 silly addNameRange     '0.1.91',
+65 silly addNameRange     '0.1.92',
+65 silly addNameRange     '0.1.93',
+65 silly addNameRange     '0.1.94',
+65 silly addNameRange     '0.1.95',
+65 silly addNameRange     '0.1.96',
+65 silly addNameRange     '0.1.97',
+65 silly addNameRange     '0.1.98',
+65 silly addNameRange     '0.1.99',
+65 silly addNameRange     '0.1.100',
+65 silly addNameRange     '0.1.101',
+65 silly addNameRange     '0.1.102',
+65 silly addNameRange     '0.1.103',
+65 silly addNameRange     '0.1.104',
+65 silly addNameRange     '0.2.0',
+65 silly addNameRange     '0.2.1',
+65 silly addNameRange     '0.2.2',
+65 silly addNameRange     '0.2.3',
+65 silly addNameRange     '0.2.4',
+65 silly addNameRange     '0.2.5',
+65 silly addNameRange     '0.2.6',
+65 silly addNameRange     '0.3.0',
+65 silly addNameRange     '0.3.1',
+65 silly addNameRange     '0.3.2',
+65 silly addNameRange     '0.3.3',
+65 silly addNameRange     '0.3.4',
+65 silly addNameRange     '0.3.5',
+65 silly addNameRange     '0.3.6',
+65 silly addNameRange     '0.3.7',
+65 silly addNameRange     '0.3.8',
+65 silly addNameRange     '0.4.0',
+65 silly addNameRange     '0.4.1',
+65 silly addNameRange     '0.4.2',
+65 silly addNameRange     '0.4.3',
+65 silly addNameRange     '0.4.4',
+65 silly addNameRange     '0.4.5',
+65 silly addNameRange     '0.4.6',
+65 silly addNameRange     '0.4.7',
+65 silly addNameRange     '0.4.8',
+65 silly addNameRange     '0.4.9',
+65 silly addNameRange     '0.4.10',
+65 silly addNameRange     '0.4.11',
+65 silly addNameRange     '0.4.12',
+65 silly addNameRange     '0.5.0',
+65 silly addNameRange     '0.5.1',
+65 silly addNameRange     '0.5.2',
+65 silly addNameRange     '0.5.3',
+65 silly addNameRange     '0.5.4',
+65 silly addNameRange     '0.5.5',
+65 silly addNameRange     '0.5.6',
+65 silly addNameRange     '0.5.7',
+65 silly addNameRange     '0.5.8',
+65 silly addNameRange     '0.5.9',
+65 silly addNameRange     '0.5.10',
+65 silly addNameRange     '0.6.0',
+65 silly addNameRange     '0.6.1',
+65 silly addNameRange     '0.6.2',
+65 silly addNameRange     '0.6.3',
+65 silly addNameRange     '0.6.4',
+65 silly addNameRange     '0.6.5',
+65 silly addNameRange     '0.6.6',
+65 silly addNameRange     '0.6.7',
+65 silly addNameRange     '0.6.8',
+65 silly addNameRange     '0.6.9',
+65 silly addNameRange     '0.6.10',
+65 silly addNameRange     '0.6.11',
+65 silly addNameRange     '0.6.12',
+65 silly addNameRange     '0.6.13',
+65 silly addNameRange     '0.6.14',
+65 silly addNameRange     '0.6.15',
+65 silly addNameRange     '0.6.16',
+65 silly addNameRange     '0.6.17',
+65 silly addNameRange     '0.6.18',
+65 silly addNameRange     '0.6.19',
+65 silly addNameRange     '0.6.20',
+65 silly addNameRange     '0.6.21',
+65 silly addNameRange     '0.7.0',
+65 silly addNameRange     '0.7.1',
+65 silly addNameRange     '0.7.2',
+65 silly addNameRange     '0.7.3',
+65 silly addNameRange     '0.7.4',
+65 silly addNameRange     '0.7.5',
+65 silly addNameRange     '0.7.6',
+65 silly addNameRange     '0.7.7',
+65 silly addNameRange     '0.7.8',
+65 silly addNameRange     '0.7.9',
+65 silly addNameRange     '0.7.10',
+65 silly addNameRange     '0.7.11',
+65 silly addNameRange     '0.7.12',
+65 silly addNameRange     '0.8.0',
+65 silly addNameRange     '0.8.1',
+65 silly addNameRange     '0.8.2',
+65 silly addNameRange     '0.8.3',
+65 silly addNameRange     '0.8.4',
+65 silly addNameRange     '0.8.5',
+65 silly addNameRange     '0.8.6',
+65 silly addNameRange     '0.8.7',
+65 silly addNameRange     '0.8.8',
+65 silly addNameRange     '0.8.9',
+65 silly addNameRange     '0.8.10',
+65 silly addNameRange     '0.8.11',
+65 silly addNameRange     '0.8.12',
+65 silly addNameRange     '0.8.13',
+65 silly addNameRange     '0.8.14',
+65 silly addNameRange     '0.8.15',
+65 silly addNameRange     '0.8.16',
+65 silly addNameRange     '0.8.17',
+65 silly addNameRange     '0.8.18',
+65 silly addNameRange     '0.8.19',
+65 silly addNameRange     '0.8.20',
+65 silly addNameRange     '0.8.21',
+65 silly addNameRange     '0.8.22',
+65 silly addNameRange     '0.8.23',
+65 silly addNameRange     '0.8.24',
+65 silly addNameRange     '0.8.25',
+65 silly addNameRange     '0.8.26',
+65 silly addNameRange     '0.8.27',
+65 silly addNameRange     '0.8.28',
+65 silly addNameRange     '0.9.0',
+65 silly addNameRange     '0.9.1',
+65 silly addNameRange     '0.9.2',
+65 silly addNameRange     '0.9.3',
+65 silly addNameRange     '0.9.4',
+65 silly addNameRange     '0.9.5',
+65 silly addNameRange     '0.9.6',
+65 silly addNameRange     '0.9.7',
+65 silly addNameRange     '0.9.8',
+65 silly addNameRange     '0.9.9',
+65 silly addNameRange     '0.9.10',
+65 silly addNameRange     '0.9.11',
+65 silly addNameRange     '0.9.12',
+65 silly addNameRange     '0.10.0',
+65 silly addNameRange     '0.10.1',
+65 silly addNameRange     '0.10.2',
+65 silly addNameRange     '0.10.3',
+65 silly addNameRange     '0.10.4',
+65 silly addNameRange     '0.10.5',
+65 silly addNameRange     '0.10.6',
+65 silly addNameRange     '0.10.7',
+65 silly addNameRange     '0.10.8',
+65 silly addNameRange     '0.10.9',
+65 silly addNameRange     '0.10.10',
+65 silly addNameRange     '0.10.11',
+65 silly addNameRange     '0.10.12',
+65 silly addNameRange     '0.10.13',
+65 silly addNameRange     '0.10.14',
+65 silly addNameRange     '0.10.15',
+65 silly addNameRange     '0.10.16',
+65 silly addNameRange     '0.10.17',
+65 silly addNameRange     '0.10.18',
+65 silly addNameRange     '0.10.19',
+65 silly addNameRange     '0.10.20',
+65 silly addNameRange     '0.10.21',
+65 silly addNameRange     '0.10.22',
+65 silly addNameRange     '0.10.23',
+65 silly addNameRange     '0.10.24',
+65 silly addNameRange     '0.10.25',
+65 silly addNameRange     '0.10.26',
+65 silly addNameRange     '0.10.27',
+65 silly addNameRange     '0.10.28',
+65 silly addNameRange     '0.10.29',
+65 silly addNameRange     '0.10.30',
+65 silly addNameRange     '0.10.31',
+65 silly addNameRange     '0.10.32',
+65 silly addNameRange     '0.10.33',
+65 silly addNameRange     '0.10.34',
+65 silly addNameRange     '0.10.35',
+65 silly addNameRange     '0.10.36',
+65 silly addNameRange     '0.10.37',
+65 silly addNameRange     '0.10.38',
+65 silly addNameRange     '0.10.39',
+65 silly addNameRange     '0.10.40',
+65 silly addNameRange     '0.10.41',
+65 silly addNameRange     '0.10.42',
+65 silly addNameRange     '0.10.43',
+65 silly addNameRange     '0.10.44',
+65 silly addNameRange     '0.10.45',
+65 silly addNameRange     '0.10.46',
+65 silly addNameRange     '0.10.47',
+65 silly addNameRange     '0.10.48',
+65 silly addNameRange     '0.11.0',
+65 silly addNameRange     '0.11.1',
+65 silly addNameRange     '0.11.2',
+65 silly addNameRange     '0.11.3',
+65 silly addNameRange     '0.11.4',
+65 silly addNameRange     '0.11.5',
+65 silly addNameRange     '0.11.6',
+65 silly addNameRange     '0.11.7',
+65 silly addNameRange     '0.11.8',
+65 silly addNameRange     '0.11.9',
+65 silly addNameRange     '0.11.10',
+65 silly addNameRange     '0.11.11',
+65 silly addNameRange     '0.11.12',
+65 silly addNameRange     '0.11.13',
+65 silly addNameRange     '0.11.14',
+65 silly addNameRange     '0.11.15',
+65 silly addNameRange     '0.11.16',
+65 silly addNameRange     '0.12.0',
+65 silly addNameRange     '0.12.1',
+65 silly addNameRange     '0.12.2',
+65 silly addNameRange     '0.12.3',
+65 silly addNameRange     '0.12.4',
+65 silly addNameRange     '0.12.5',
+65 silly addNameRange     '0.12.6',
+65 silly addNameRange     '0.12.7',
+65 silly addNameRange     '0.12.8',
+65 silly addNameRange     '0.12.9',
+65 silly addNameRange     '0.12.10',
+65 silly addNameRange     '0.12.11',
+65 silly addNameRange     '0.12.12',
+65 silly addNameRange     '0.12.13',
+65 silly addNameRange     '0.12.14',
+65 silly addNameRange     '0.12.15',
+65 silly addNameRange     '0.12.16',
+65 silly addNameRange     '0.12.17',
+65 silly addNameRange     '0.12.18',
+65 silly addNameRange     '4.0.0',
+65 silly addNameRange     '4.1.0',
+65 silly addNameRange     '4.1.1',
+65 silly addNameRange     '4.1.2',
+65 silly addNameRange     '4.2.0',
+65 silly addNameRange     '4.2.1',
+65 silly addNameRange     '4.2.2',
+65 silly addNameRange     '4.2.3',
+65 silly addNameRange     '4.2.4',
+65 silly addNameRange     '4.2.5',
+65 silly addNameRange     '4.2.6',
+65 silly addNameRange     '4.3.0',
+65 silly addNameRange     '4.3.1',
+65 silly addNameRange     '4.3.2',
+65 silly addNameRange     '4.4.0',
+65 silly addNameRange     '4.4.1',
+65 silly addNameRange     '4.4.2',
+65 silly addNameRange     '4.4.3',
+65 silly addNameRange     '4.4.4',
+65 silly addNameRange     '4.4.5',
+65 silly addNameRange     '4.4.6',
+65 silly addNameRange     '4.4.7',
+65 silly addNameRange     '4.5.0',
+65 silly addNameRange     '4.6.0',
+65 silly addNameRange     '4.6.1',
+65 silly addNameRange     '4.6.2',
+65 silly addNameRange     '4.7.0',
+65 silly addNameRange     '4.7.1',
+65 silly addNameRange     '4.7.2',
+65 silly addNameRange     '4.7.3',
+65 silly addNameRange     '4.8.0',
+65 silly addNameRange     '4.8.1',
+65 silly addNameRange     '4.8.2',
+65 silly addNameRange     '4.8.3',
+65 silly addNameRange     '4.8.4',
+65 silly addNameRange     '5.0.0',
+65 silly addNameRange     '5.1.0',
+65 silly addNameRange     '5.1.1',
+65 silly addNameRange     '5.2.0',
+65 silly addNameRange     '5.3.0',
+65 silly addNameRange     '5.4.0',
+65 silly addNameRange     '5.4.1',
+65 silly addNameRange     '5.5.0',
+65 silly addNameRange     '5.6.0',
+65 silly addNameRange     '5.7.0',
+65 silly addNameRange     '5.7.1',
+65 silly addNameRange     '5.8.0',
+65 silly addNameRange     '5.9.0',
+65 silly addNameRange     '5.9.1',
+65 silly addNameRange     '5.10.0',
+65 silly addNameRange     '5.10.1',
+65 silly addNameRange     '5.11.0',
+65 silly addNameRange     '5.11.1',
+65 silly addNameRange     '5.12.0',
+65 silly addNameRange     '6.0.0',
+65 silly addNameRange     '6.1.0',
+65 silly addNameRange     '6.2.0',
+65 silly addNameRange     '6.2.1',
+65 silly addNameRange     '6.2.2',
+65 silly addNameRange     '6.3.0',
+65 silly addNameRange     '6.3.1',
+65 silly addNameRange     '6.4.0',
+65 silly addNameRange     '6.5.0',
+65 silly addNameRange     '6.6.0',
+65 silly addNameRange     '6.7.0',
+65 silly addNameRange     '6.8.0',
+65 silly addNameRange     '6.8.1',
+65 silly addNameRange     '6.9.0',
+65 silly addNameRange     '6.9.1',
+65 silly addNameRange     '6.9.2',
+65 silly addNameRange     '6.9.3',
+65 silly addNameRange     '6.9.4',
+65 silly addNameRange     '6.9.5',
+65 silly addNameRange     '6.10.0',
+65 silly addNameRange     '6.10.1',
+65 silly addNameRange     '6.10.2',
+65 silly addNameRange     '6.10.3',
+65 silly addNameRange     '6.11.0',
+65 silly addNameRange     '6.11.1',
+65 silly addNameRange     '7.0.0',
+65 silly addNameRange     '7.1.0',
+65 silly addNameRange     '7.2.0',
+65 silly addNameRange     '7.2.1',
+65 silly addNameRange     '7.3.0',
+65 silly addNameRange     '7.4.0',
+65 silly addNameRange     '7.5.0',
+65 silly addNameRange     '7.6.0',
+65 silly addNameRange     '7.7.0',
+65 silly addNameRange     '7.7.1',
+65 silly addNameRange     '7.7.2',
+65 silly addNameRange     '7.7.3',
+65 silly addNameRange     '7.7.4',
+65 silly addNameRange     '7.8.0',
+65 silly addNameRange     '7.9.0',
+65 silly addNameRange     '7.10.0',
+65 silly addNameRange     '7.10.1',
+65 silly addNameRange     '8.0.0',
+65 silly addNameRange     '8.1.0',
+65 silly addNameRange     '8.1.1',
+65 silly addNameRange     '8.1.2',
+65 silly addNameRange     '8.1.3',
+65 silly addNameRange     '8.1.4',
+65 silly addNameRange     '8.2.0',
+65 silly addNameRange     '8.2.1',
+65 silly addNameRange     '8.3.0',
+65 silly addNameRange     '8.4.0',
+65 silly addNameRange     '8.5.0',
+65 silly addNameRange     '8.6.0',
+65 silly addNameRange     '8.7.0',
+65 silly addNameRange     '8.8.0',
+65 silly addNameRange     '8.8.1',
+65 silly addNameRange     '8.9.0',
+65 silly addNameRange     '9.0.0',
+65 silly addNameRange     '4.8.6',
+65 silly addNameRange     '6.12.0',
+65 silly addNameRange     '9.1.0',
+65 silly addNameRange     '9.2.0',
+65 silly addNameRange     '8.9.1',
+65 silly addNameRange     '6.12.1',
+65 silly addNameRange     '8.9.2',
+65 silly addNameRange     '4.8.7',
+65 silly addNameRange     '6.12.2',
+65 silly addNameRange     '9.3.0',
+65 silly addNameRange     '8.9.4',
+65 silly addNameRange     '6.12.3',
+65 silly addNameRange     '9.4.0',
+65 silly addNameRange     '9.5.0',
+65 silly addNameRange     '6.13.0',
+65 silly addNameRange     '9.7.0',
+65 silly addNameRange     '9.6.0',
+65 silly addNameRange     '9.6.1',
+65 silly addNameRange     '8.10.0',
+65 silly addNameRange     '9.8.0',
+65 silly addNameRange     '9.9.0',
+65 silly addNameRange     '8.11.0',
+65 silly addNameRange     '6.14.0',
+65 silly addNameRange     '4.9.0',
+65 silly addNameRange     '9.10.0',
+65 silly addNameRange     '8.11.1',
+65 silly addNameRange     '4.9.1',
+65 silly addNameRange     '6.14.1',
+65 silly addNameRange     '9.10.1',
+65 silly addNameRange     '9.11.0',
+65 silly addNameRange     '10.0.0',
+65 silly addNameRange     '6.14.2',
+65 silly addNameRange     '6.11.5',
+65 silly addNameRange     '8.11.2',
+65 silly addNameRange     '10.1.0',
+65 silly addNameRange     '10.2.0',
+65 silly addNameRange     '10.3.0',
+65 silly addNameRange     '10.4.0',
+65 silly addNameRange     '8.11.3',
+65 silly addNameRange     '6.14.3',
+65 silly addNameRange     '9.11.2',
+65 silly addNameRange     '10.4.1',
+65 silly addNameRange     '10.5.0',
+65 silly addNameRange     '10.6.0',
+65 silly addNameRange     '10.7.0',
+65 silly addNameRange     '10.8.0',
+65 silly addNameRange     '8.11.4',
+65 silly addNameRange     '10.9.0',
+65 silly addNameRange     '6.14.4',
+65 silly addNameRange     '10.10.0',
+65 silly addNameRange     '8.12.0',
+65 silly addNameRange     '10.11.0',
+65 silly addNameRange     '10.12.0',
+65 silly addNameRange     '11.0.0',
+65 silly addNameRange     '10.13.0',
+65 silly addNameRange     '11.1.0',
+65 silly addNameRange     '8.13.0',
+65 silly addNameRange     '11.2.0',
+65 silly addNameRange     '6.15.1',
+65 silly addNameRange     '8.14.0',
+65 silly addNameRange     '10.14.0',
+65 silly addNameRange     '11.3.0',
+65 silly addNameRange     '11.4.0',
+65 silly addNameRange     '10.14.1',
+65 silly addNameRange     '11.5.0',
+65 silly addNameRange     '8.14.1',
+65 silly addNameRange     '10.14.2',
+65 silly addNameRange     '11.6.0',
+65 silly addNameRange     '10.15.0',
+65 silly addNameRange     '8.15.0',
+65 silly addNameRange     '6.16.0',
+65 silly addNameRange     '11.7.0',
+65 silly addNameRange     '11.8.0',
+65 silly addNameRange     '10.15.1',
+65 silly addNameRange     '11.9.0',
+65 silly addNameRange     '11.10.0',
+65 silly addNameRange     '6.17.0',
+65 silly addNameRange     '8.15.1',
+65 silly addNameRange     '10.15.2',
+65 silly addNameRange     '10.15.3',
+65 silly addNameRange     '11.11.0',
+65 silly addNameRange     '11.12.0',
+65 silly addNameRange     '11.13.0',
+65 silly addNameRange     '6.17.1',
+65 silly addNameRange     '11.14.0',
+65 silly addNameRange     '12.0.0',
+65 silly addNameRange     '8.16.0',
+65 silly addNameRange     '12.1.0',
+65 silly addNameRange     '11.15.0',
+65 silly addNameRange     '12.2.0',
+65 silly addNameRange     '12.3.0',
+65 silly addNameRange     '12.3.1',
+65 silly addNameRange     '10.16.0',
+65 silly addNameRange     '12.4.0',
+65 silly addNameRange     '12.5.0',
+65 silly addNameRange     '12.6.0',
+65 silly addNameRange     '12.7.0',
+65 silly addNameRange     '10.16.1',
+65 silly addNameRange     '10.16.2',
+65 silly addNameRange     '12.8.0',
+65 silly addNameRange     '10.16.3',
+65 silly addNameRange     '8.16.1',
+65 silly addNameRange     '12.8.1',
+65 silly addNameRange     '12.9.0',
+65 silly addNameRange     '12.9.1',
+65 silly addNameRange     '12.10.0',
+65 silly addNameRange     '12.11.0',
+65 silly addNameRange     '12.11.1',
+65 silly addNameRange     '8.16.2',
+65 silly addNameRange     '12.12.0',
+65 silly addNameRange     '12.13.0',
+65 silly addNameRange     '13.0.0',
+65 silly addNameRange     '10.17.0',
+65 silly addNameRange     '13.0.1',
+65 silly addNameRange     '13.1.0',
+65 silly addNameRange     '13.2.0',
+65 silly addNameRange     '13.3.0',
+65 silly addNameRange     '12.13.1',
+65 silly addNameRange     '8.17.0',
+65 silly addNameRange     '10.18.0',
+65 silly addNameRange     '12.14.0',
+65 silly addNameRange     '13.4.0',
+65 silly addNameRange     '13.5.0',
+65 silly addNameRange     '12.14.1',
+65 silly addNameRange     '13.6.0',
+65 silly addNameRange     '10.18.1',
+65 silly addNameRange     '13.7.0',
+65 silly addNameRange     '10.19.0',
+65 silly addNameRange     '12.15.0',
+65 silly addNameRange     '13.8.0',
+65 silly addNameRange     '12.16.0',
+65 silly addNameRange     '12.16.1',
+65 silly addNameRange     '13.9.0',
+65 silly addNameRange     '13.10.0',
+65 silly addNameRange     '13.10.1',
+65 silly addNameRange     '13.11.0',
+65 silly addNameRange     '13.12.0',
+65 silly addNameRange     '10.20.0',
+65 silly addNameRange     '12.16.2',
+65 silly addNameRange     '10.20.1',
+65 silly addNameRange     '13.13.0',
+65 silly addNameRange     '14.0.0',
+65 silly addNameRange     '12.16.3',
+65 silly addNameRange     '13.14.0',
+65 silly addNameRange     '14.1.0',
+65 silly addNameRange     '14.2.0',
+65 silly addNameRange     '14.3.0',
+65 silly addNameRange     '12.17.0',
+65 silly addNameRange     '10.21.0',
+65 silly addNameRange     '12.18.0',
+65 silly addNameRange     '14.4.0',
+65 silly addNameRange     '12.18.1',
+65 silly addNameRange     '14.5.0',
+65 silly addNameRange     '12.18.2',
+65 silly addNameRange     '10.22.0',
+65 silly addNameRange     '14.6.0',
+65 silly addNameRange     '12.18.3',
+65 silly addNameRange     '14.7.0',
+65 silly addNameRange     '14.8.0',
+65 silly addNameRange     '14.9.0',
+65 silly addNameRange     '14.10.0',
+65 silly addNameRange     '14.10.1',
+65 silly addNameRange     '10.22.1',
+65 silly addNameRange     '12.18.4',
+65 silly addNameRange     '14.11.0',
+65 silly addNameRange     '14.12.0',
+65 silly addNameRange     '14.13.0',
+65 silly addNameRange     '14.13.1',
+65 silly addNameRange     '12.19.0',
+65 silly addNameRange     '14.14.0',
+65 silly addNameRange     '15.0.0',
+65 silly addNameRange     '15.0.1',
+65 silly addNameRange     '14.15.0',
+65 silly addNameRange     '10.23.0',
+65 silly addNameRange     '15.1.0',
+65 silly addNameRange     '15.2.0',
+65 silly addNameRange     '12.19.1',
+65 silly addNameRange     '14.15.1',
+65 silly addNameRange     '15.2.1',
+65 silly addNameRange     '15.3.0',
+65 silly addNameRange     '12.20.0',
+65 silly addNameRange     '15.4.0',
+65 silly addNameRange     '14.15.2',
+65 silly addNameRange     '12.20.1',
+65 silly addNameRange     '10.23.2',
+65 silly addNameRange     '15.7.0',
+65 silly addNameRange     '15.8.0',
+65 silly addNameRange     '14.16.0',
+65 silly addNameRange     '15.10.0',
+65 silly addNameRange     '12.21.0',
+65 silly addNameRange     '10.24.0',
+65 silly addNameRange     '15.12.0',
+65 silly addNameRange     '10.24.1',
+65 silly addNameRange     '12.22.1',
+65 silly addNameRange     '14.16.1',
+65 silly addNameRange     '15.14.0',
+65 silly addNameRange     '16.0.0',
+65 silly addNameRange     '16.1.0' ] ]
+66 silly addNamed node@14.16.1
+67 verbose addNamed "14.16.1" is a plain semver version for node
+68 verbose already installed skipping bcrypt-nodejs@0.0.3 C:\Users\lycod\Desktop\qrcodegen\node
+69 verbose already installed skipping body-parser@^1.19.0 C:\Users\lycod\Desktop\qrcodegen\node
+70 verbose already installed skipping crypto-ts@^1.0.2 C:\Users\lycod\Desktop\qrcodegen\node
+71 verbose already installed skipping express@^4.17.1 C:\Users\lycod\Desktop\qrcodegen\node
+72 verbose already installed skipping ip@^1.1.5 C:\Users\lycod\Desktop\qrcodegen\node
+73 verbose already installed skipping jsonwebtoken@^8.5.1 C:\Users\lycod\Desktop\qrcodegen\node
+74 verbose already installed skipping lodash@^4.17.15 C:\Users\lycod\Desktop\qrcodegen\node
+75 silly mapToRegistry name node
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data { raw: 'node',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   name: 'node',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/node
+80 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-14.16.1.tgz not in flight; adding
+81 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-14.16.1.tgz',
+81 verbose addRemoteTarball   '8a075d50b249152d09c18ac6d45f60a5359a537a' ]
+82 info retry fetch attempt 1 at 5:46:41 PM
+83 info attempt registry request try #1 at 5:46:41 PM
+84 http fetch GET https://registry.npmjs.org/node/-/node-14.16.1.tgz
+85 verbose request id 539bed8b4505174b
+86 http fetch 200 https://registry.npmjs.org/node/-/node-14.16.1.tgz
+87 silly fetchAndShaCheck shasum 8a075d50b249152d09c18ac6d45f60a5359a537a
+88 verbose addTmpTarball C:\Users\lycod\AppData\Local\Temp\npm-18180-00faf144\registry.npmjs.org\node\-\node-14.16.1.tgz not in flight; adding
+89 verbose addTmpTarball already have metadata; skipping unpack for node@14.16.1
+90 verbose correctMkdir C:\Users\lycod\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+91 silly cache afterAdd node@14.16.1
+92 verbose afterAdd C:\Users\lycod\AppData\Roaming\npm-cache\node\14.16.1\package\package.json not in flight; writing
+93 verbose correctMkdir C:\Users\lycod\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+94 verbose afterAdd C:\Users\lycod\AppData\Roaming\npm-cache\node\14.16.1\package\package.json written
+95 silly install resolved [ { name: 'node',
+95 silly install resolved     version: '14.16.1',
+95 silly install resolved     description: 'node',
+95 silly install resolved     main: 'index.js',
+95 silly install resolved     keywords: [ 'runtime' ],
+95 silly install resolved     repository:
+95 silly install resolved      { type: 'git',
+95 silly install resolved        url: 'git+https://github.com/aredridel/node-bin-gen.git' },
+95 silly install resolved     scripts: { preinstall: 'node installArchSpecificPackage' },
+95 silly install resolved     bin: { node: 'bin/node' },
+95 silly install resolved     dependencies: { 'node-bin-setup': '^1.0.0' },
+95 silly install resolved     license: 'ISC',
+95 silly install resolved     author: '',
+95 silly install resolved     engines: { npm: '>=5.0.0' },
+95 silly install resolved     readme: 'node\n========\n\nInstalls a `node` binary into your project, which because `npm` runs scripts with the local `./node_modules/.bin` in the `PATH` ahead of the system copy means you can have a local version of node that is different than your system\'s, and manage node as a normal dependency.\n\nWarning: don\'t install this globally with npm 2. `npm@2` immediately removes node, then can\'t run the scripts that make this work.\n\nUse\n---\n\n```\nnpm i node@lts\n```\n\nUse with `npx`\n--------------\n\n```\nnpx node@4 myscript.js\n```\n\nThis will run `myscript.js` with the latest version of node from the v4 major.\n\nUsing the shell auto-fallback of npx, you can even do it like so:\n\n\n```\nnode@4 myscript.js\n```\n\nThanks\n------\n\nMajor thanks to Kat Marchán for late-night problem solving, and to CJ Silverio and Maciej Małecki for egging me on way back when I had the idea to package node up this way. It does turn out if you ask "why _not_?!" once in a while something fun happens.\n',
+95 silly install resolved     readmeFilename: 'README.md',
+95 silly install resolved     bugs: { url: 'https://github.com/aredridel/node-bin-gen/issues' },
+95 silly install resolved     homepage: 'https://github.com/aredridel/node-bin-gen#readme',
+95 silly install resolved     _id: 'node@14.16.1',
+95 silly install resolved     _nodeVersion: '15.14.0',
+95 silly install resolved     _npmVersion: '6.14.12',
+95 silly install resolved     dist:
+95 silly install resolved      { integrity: 'sha512-SFe89UaWbT8XM3GHrbohdCyZtxAJZt2FYt6orZP9Dyig2EuEV+S8k5cNoDJbokVbXyYLoUv1kHEg60MaYsepVg==',
+95 silly install resolved        shasum: '8a075d50b249152d09c18ac6d45f60a5359a537a',
+95 silly install resolved        tarball: 'https://registry.npmjs.org/node/-/node-14.16.1.tgz',
+95 silly install resolved        fileCount: 3,
+95 silly install resolved        unpackedSize: 1477,
+95 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgdyj+CRA9TVsSAnZWagAAg0gQAIj7/IVtDDa35/BWmDAb\necu1kHEwCCfE0onb5FlqkSb6aTQj9p+pUhAy6Nj3SgddizUHtzjPNvYJOhIZ\nP4CK4IFSn+o/fH9kI37c95TEHzdtYpPmM7jov15ZCWwTxKDHHHLhVZVrko3+\naKXJlfy/OLoZufPn5Yh9UUGddQZ7Be1BBUP+Pz3fVQdgdZ1rEGCWn4ZY5FMB\nq+Ekv7hQ1V6MbbSsL44FXcSdL9wzi2MD3iy4qbshHiU+5TFgoW74kULJYehX\n1ja9vxbu7CJznOueH7MY55mMfpOuNdY7h/OCn6VyaOTPlam9WfA1ebY6LTqZ\neQEmbIfbCLaeMYV9yQiMQypLrykWclj+QCJ5KxosxGnoTITOecWSaQiwJMC3\nTHVAsgiIHZkITM0swK+Aq3WtOZd5I5ZeWNqKu5CrdYBLOopLEZtQcP3u4hF+\ni9PcE3Xw1+nPnUpqqQwYrerDQ2EaWoDFvc+69s3xe++W5055HaS1xbSHzbFe\niRQczYZw9zJKeg79/Rz8c+k0QNDLVYwvXJLTX9odVNfc+a1qBS03OY93nzka\ntdnZ0Q8Mqx0zdR85gjE7WdagYULfeQpncAt3JwVrsjL9XxXI9b+uW08F16Ir\nAtVGpuIRX/KOtFUuyVPtL9WsKI9ir+Vy0LFoE0uCB7xLSR+4pdCG/NudMSV6\nx7WG\r\n=Nt7X\r\n-----END PGP SIGNATURE-----\r\n' },
+95 silly install resolved     _npmUser: { name: 'aredridel', email: 'aredridel@dinhe.net' },
+95 silly install resolved     directories: {},
+95 silly install resolved     maintainers: [ [Object], [Object] ],
+95 silly install resolved     _npmOperationalInternal:
+95 silly install resolved      { host: 's3://npm-registry-packages',
+95 silly install resolved        tmp: 'tmp/node_14.16.1_1618422014401_0.5418307648204128' },
+95 silly install resolved     _hasShrinkwrap: false,
+95 silly install resolved     _shasum: '8a075d50b249152d09c18ac6d45f60a5359a537a',
+95 silly install resolved     _resolved: 'https://registry.npmjs.org/node/-/node-14.16.1.tgz',
+95 silly install resolved     _from: 'node@>=14.16.1 <15.0.0' } ]
+96 info install node@14.16.1 into C:\Users\lycod\Desktop\qrcodegen\node
+97 info installOne node@14.16.1
+98 verbose installOne of node to C:\Users\lycod\Desktop\qrcodegen\node not in flight; installing
+99 verbose correctMkdir C:\Users\lycod\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+100 verbose lock using C:\Users\lycod\AppData\Roaming\npm-cache\_locks\node-843fd45cbfb9e0ed.lock for C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+101 warn engine node@14.16.1: wanted: {"npm":">=5.0.0"} (current: {"node":"0.12.18","npm":"2.15.11"})
+102 silly install write writing node 14.16.1 to C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+103 verbose unbuild node_modules\node
+104 silly gentlyRm C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node is being purged from base C:\Users\lycod\Desktop\qrcodegen\node
+105 verbose gentlyRm don't care about contents; nuking C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+106 verbose tar unpack C:\Users\lycod\AppData\Roaming\npm-cache\node\14.16.1\package.tgz
+107 verbose tar unpacking to C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+108 silly gentlyRm C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node is being purged
+109 verbose gentlyRm don't care about contents; nuking C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+110 silly gunzTarPerm modes [ '777', '666' ]
+111 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+112 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry package.json
+114 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+115 silly gunzTarPerm extractEntry README.md
+116 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+117 verbose write writing to C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node\package.json
+118 info preinstall node@14.16.1
+119 verbose unsafe-perm in lifecycle true
+120 info node@14.16.1 Failed to exec preinstall script
+121 verbose unlock done using C:\Users\lycod\AppData\Roaming\npm-cache\_locks\node-843fd45cbfb9e0ed.lock for C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+122 verbose stack Error: node@14.16.1 preinstall: `node installArchSpecificPackage`
+122 verbose stack Exit status 1
+122 verbose stack     at EventEmitter.<anonymous> (C:\Users\lycod\AppData\Roaming\nvm\v0.12.18\node_modules\npm\lib\utils\lifecycle.js:217:16)
+122 verbose stack     at EventEmitter.emit (events.js:110:17)
+122 verbose stack     at ChildProcess.<anonymous> (C:\Users\lycod\AppData\Roaming\nvm\v0.12.18\node_modules\npm\lib\utils\spawn.js:24:14)
+122 verbose stack     at ChildProcess.emit (events.js:110:17)
+122 verbose stack     at maybeClose (child_process.js:1019:16)
+122 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1091:5)
+123 verbose pkgid node@14.16.1
+124 verbose cwd C:\Users\lycod\Desktop\qrcodegen\node
+125 error Windows_NT 10.0.19042
+126 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+127 error node v0.12.18
+128 error npm  v2.15.11
+129 error code ELIFECYCLE
+130 error node@14.16.1 preinstall: `node installArchSpecificPackage`
+130 error Exit status 1
+131 error Failed at the node@14.16.1 preinstall script 'node installArchSpecificPackage'.
+131 error This is most likely a problem with the node package,
+131 error not with npm itself.
+131 error Tell the author that this fails on your system:
+131 error     node installArchSpecificPackage
+131 error You can get information on how to open an issue for this project with:
+131 error     npm bugs node
+131 error Or if that isn't available, you can get their info via:
+131 error
+131 error     npm owner ls node
+131 error There is likely additional logging output above.
+132 verbose exit [ 1, true ]
+133 verbose unbuild node_modules\node
+134 info preuninstall node@14.16.1
+135 info uninstall node@14.16.1
+136 verbose unbuild rmStuff node@14.16.1 from C:\Users\lycod\Desktop\qrcodegen\node\node_modules
+137 silly gentlyRm C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\node.cmd is being gently removed
+138 silly gentlyRm verifying C:\Users\lycod\Desktop\qrcodegen\node is an npm working directory
+139 silly gentlyRm containing path C:\Users\lycod\Desktop\qrcodegen\node is under npm's control, in C:\Users\lycod\Desktop\qrcodegen\node
+140 silly gentlyRm deletion target C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\node.cmd is under C:\Users\lycod\Desktop\qrcodegen\node
+141 verbose gentlyRm vacuuming from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\node.cmd up to C:\Users\lycod\Desktop\qrcodegen\node
+142 silly gentlyRm C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\node is being gently removed
+143 silly gentlyRm verifying C:\Users\lycod\Desktop\qrcodegen\node is an npm working directory
+144 silly gentlyRm containing path C:\Users\lycod\Desktop\qrcodegen\node is under npm's control, in C:\Users\lycod\Desktop\qrcodegen\node
+145 silly gentlyRm deletion target C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\node is under C:\Users\lycod\Desktop\qrcodegen\node
+146 verbose gentlyRm vacuuming from C:\Users\lycod\Desktop\qrcodegen\node\node_modules\.bin\node up to C:\Users\lycod\Desktop\qrcodegen\node
+147 info postuninstall node@14.16.1
+148 silly gentlyRm C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node is being purged from base C:\Users\lycod\Desktop\qrcodegen\node
+149 verbose gentlyRm don't care about contents; nuking C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+150 silly vacuum-fs purging C:\Users\lycod\Desktop\qrcodegen\node\node_modules\node
+151 silly vacuum-fs quitting because other entries in C:\Users\lycod\Desktop\qrcodegen\node\node_modules
