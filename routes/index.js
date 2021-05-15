@@ -51,5 +51,5 @@ module.exports = function (app) {
     app.post('/api/getQRCodeAnalyticsByID', qrCode.getQRCodeAnalyticsByID);
     app.post('/api/deleteQRCodeByID', qrCode.deleteQRCodeByID);
     app.post('/redirectURL', qrCode.redirectURL);
-    app.post('/appSettings', qrCode.appSettings);
+    app.post('/appSettings', qrCode.appSettings); 
 };
