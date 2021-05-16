@@ -23,7 +23,7 @@ const host = ip.address();
 var https = require('https');
 var http = require('http');
 const { env } = require('process');
-/* if (host == 'Your_production_IP_address') {
+/*  if (host == '20.50.2.35') {
     var options = {
         key: fs.readFileSync('Your_qrsslcert.key_Path', 'utf8'),
         cert: fs.readFileSync('Your_qrsslcert.crt_Path', 'utf8'),
@@ -34,12 +34,12 @@ const { env } = require('process');
     app.listen(config.https_port, host, function () {
         console.log(`Node QR server running on ${host}:`, config.https_port);
     });
-} else { */
+} else {  */
     http.createServer(app);
     app.listen(env.PORT || config.http_port, function () {
         console.log("Node QR server running on ", config.http_port);
     });
-/* } */
+ /* }  */
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
